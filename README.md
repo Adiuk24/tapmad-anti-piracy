@@ -1,5 +1,25 @@
 # 🚀 **TAPMAD ANTI-PIRACY PLATFORM**
 
+## ⚡ **QUICK START FOR TEAM**
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Adiuk24/tapmad-anti-piracy.git
+cd tapmad-anti-piracy
+
+# 2. Run the setup script
+./setup.sh
+
+# 3. Start development server
+./start_dev.sh
+
+# 4. Open http://localhost:8000/docs
+```
+
+**That's it!** Your team is ready to develop. See [TEAM_SETUP.md](TEAM_SETUP.md) for detailed instructions.
+
+---
+
 ## 📋 **SYSTEM OVERVIEW**
 
 **Tapmad** is a leading **OTT (Over-The-Top) live streaming platform** specializing in sports content, particularly cricket and football matches. This anti-piracy system is specifically designed to protect Tapmad's live streaming content from unauthorized distribution and piracy across multiple platforms.
