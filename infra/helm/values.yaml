@@ -1,0 +1,19 @@
+replicaCount: 1
+
+image:
+  repository: tapmad/api
+  tag: latest
+
+env:
+  PGHOST: postgres
+  PGPORT: "5432"
+  PGDATABASE: antipiracy
+  PGUSER: postgres
+  PGPASSWORD: postgres
+  REDIS_URL: redis://redis:6379/0
+
+service:
+  type: ClusterIP
+  port: 8080
+
+
