@@ -35,7 +35,8 @@ venv.bak/
 .venv/
 
 # IDE
-.vscode/
+.vscode/*
+!.vscode/settings.json
 .idea/
 *.swp
 *.swo
@@ -55,7 +56,7 @@ coverage.xml
 .ipynb_checkpoints
 
 # pyenv
-.python-version
+# .python-version  # Allow project-specific python version
 
 # pipenv
 Pipfile.lock
